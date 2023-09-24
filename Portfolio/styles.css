@@ -1,0 +1,152 @@
+html{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+body{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border: #73d15e solid 3px;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end
+}
+#nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 8%;
+}
+
+.icon{
+    width: 1.5em;
+    margin-right: 3px;
+}
+
+.link {
+    font-size: 1em; 
+    text-decoration: none; 
+    color: #000000; 
+    transition:  color 0.3s;
+}
+
+
+.link:hover {
+    color: #2f9f16;
+}
+
+
+.link:active {
+   color: #9f162f;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+#leftSection{
+    width: 40%;
+    height: 100%;
+    
+}
+#coloredTitle{
+    color: #9f162f;
+}
+#colored{
+    color: #73d15e;
+}
+
+button{
+    font-size: 1em;
+    padding: 10px 20px;
+    width: fit-content;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 5px #0000008b;
+}
+
+#hire{
+    background-color: #2f9f16;
+    color: white;
+    border: solid #73d15e 1px ;
+    border-radius: 4px;
+}
+#myProj{
+    background-color:white;
+    color:  #73d15e;
+    border: solid  #73d15e 1px;
+    border-radius: 4px;
+}
+#hire:hover,#myProj:hover{
+    background-color: #9f162f ;
+}
+
+#rightSection{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+
+}
+#mypic{
+    width: 60%;
+    border-bottom-left-radius: 50%;
+    box-shadow: -16px 6px 2px -6px #73d15e;
+}
+
+footer{
+    text-align: center;
+    color: #80808087;
+}
+/* Responsive font size */
+h1 {
+    font-size: 2em;
+    color:  #2f9f16; 
+}
+
+h4 {
+    font-size: 1em; 
+    color:  #73d15e;;
+}
+
+p {
+    font-size: 1em; 
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 1.8em; 
+    }
+
+    h4 {
+        font-size: 0.7em; 
+    }
+
+    p {
+        font-size: 0.9em; 
+    }
+    button{
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+    .link {
+        font-size: 0.9em; 
+    }
+    .icon{
+        width: 1.2em;
+    }
+}
