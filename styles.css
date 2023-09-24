@@ -62,7 +62,11 @@ main{
     color: #9f162f;
 }
 #colored{
+    text-decoration: none;
     color: #73d15e;
+}
+#colored:hover{
+    color:#9f162f
 }
 
 button{
